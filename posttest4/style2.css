@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    background-color: yellow;
+	background-repeat: #d80077;
+	background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+h1 {text-decoration: underline;
+    color: #d80077;  
+    font-size: 40px; 
+    }
+
+div {
+    position: absolute;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 17px solid #d80077;
+    box-shadow: 20 20px 20px black;
+    opacity: 0.6;
+}
+
+.otput {  
+	font-weight: bold; 
+	font-size: 15px; 
+	font-family: Tahoma, sans-serif;
+	text-indent: 10px;
+    }
